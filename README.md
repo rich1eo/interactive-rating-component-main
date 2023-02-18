@@ -16,7 +16,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/rich1eo/interactive-rating-component-main
-- Live Site URL:
+- Live Site URL: https://interactive-rating-component-rich1e.netlify.app/
 
 ## My process
 
@@ -32,4 +32,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@rich1e](https://www.frontendmentor.io/profile/rich1eo)
