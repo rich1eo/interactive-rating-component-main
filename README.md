@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://github.com/rich1eo/interactive-rating-component-main
 - Live Site URL:
 
 ## My process
