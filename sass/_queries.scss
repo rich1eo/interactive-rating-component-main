@@ -1,0 +1,16 @@
+@media (max-width: 400px) {
+  .card {
+    margin: 0 2.4rem;
+
+    &--submit {
+      &__rate {
+        width: 60%;
+      }
+    }
+  }
+
+  .btn-rating {
+    width: 5rem;
+    height: 5rem;
+  }
+}

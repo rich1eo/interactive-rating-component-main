@@ -1,0 +1,14 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "interactive rating component",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch": "sass --watch sass:css"
+  },
+  "author": "Vladislav Rychkov",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.58.2"
+  }
+}

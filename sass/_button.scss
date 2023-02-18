@@ -1,0 +1,40 @@
+.btn {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &-rating {
+    font-size: 1.8rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: $color-background;
+    color: $color-grey-light;
+
+    &:hover {
+      background-color: $color-grey-light;
+      color: $color-white;
+    }
+
+    &:focus {
+      background-color: $color-orange;
+      color: $color-white;
+    }
+  }
+
+  &-submit {
+    height: 5rem;
+    border-radius: 4rem;
+    background-color: $color-orange;
+    color: $color-white;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.6rem;
+
+    &:hover {
+      background-color: $color-white;
+      color: $color-orange;
+    }
+  }
+}

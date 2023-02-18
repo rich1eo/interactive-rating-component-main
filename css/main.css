@@ -1,0 +1,129 @@
+.card {
+  border-radius: 1.4rem;
+  padding: 3rem;
+  max-width: 40rem;
+  background-color: hsl(213, 19%, 18%);
+}
+.card--rating {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.card--rating__image {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: hsl(211, 19%, 23%);
+  position: relative;
+}
+.card--rating__image-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card--rating__heading {
+  font-size: 3rem;
+  color: hsl(0, 0%, 100%);
+}
+.card--rating__text {
+  font-size: 1.6rem;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1rem;
+}
+.card--rating__ratings {
+  display: flex;
+  justify-content: space-between;
+}
+.card--rating__error {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #af3333;
+}
+.card--submit {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+.card--submit__rate {
+  width: 55%;
+  align-self: center;
+  font-size: 1.4rem;
+  color: hsl(25, 97%, 53%);
+  background-color: rgba(124, 135, 152, 0.2);
+  padding: 1rem 0.6rem;
+  border-radius: 100px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  box-sizing: border-box;
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.btn {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn-rating {
+  font-size: 1.8rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: hsl(211, 19%, 23%);
+  color: hsl(217, 12%, 63%);
+}
+.btn-rating:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+.btn-rating:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.btn-submit {
+  height: 5rem;
+  border-radius: 4rem;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.6rem;
+}
+.btn-submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+@media (max-width: 400px) {
+  .card {
+    margin: 0 2.4rem;
+  }
+  .card--submit__rate {
+    width: 60%;
+  }
+  .btn-rating {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
